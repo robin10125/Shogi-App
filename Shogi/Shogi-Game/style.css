@@ -1,0 +1,70 @@
+main{
+  align-items: center;
+  justify-content: center;
+}
+#board{
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap:0px;
+  width: 475px;
+  background-color: #1a0000;
+}
+.square{
+  height: 50px;
+  width: 50px;
+  margin: 1px;
+  font-size: 10px;
+}
+.reserve-square{
+  height: 30px;
+  width: 30px;
+  font-size: 8px;
+  background-color: #ffcc80;
+}
+#reset{
+  height: 30px;
+  width: 100px;
+  margin: 20px;
+  
+}
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url('https://i.pinimg.com/originals/d5/86/55/d586552b5738198f57ec3f8bb7abd0b5.jpg');
+}
+#game{
+  display: flex;
+  align-items: flex-end;
+  flex-direction: row;
+}
+#reserve1{
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap:0px;
+  height: 200px;
+  width: 200px;
+  background-color: lightgoldenrodyellow;
+}
+#reserve2{
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap:0px;
+  height: 200px;
+  width: 200px;
+  background-color: lightgoldenrodyellow
+}
+#win-notice {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  width: 800px;
+  height: 100px;
+  overflow: auto; 
+  font-size: 100px;
+  background-color: red;
+
+}
+
