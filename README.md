@@ -13,7 +13,7 @@ Pawns, knights, lances, and silver generals, upon promotion, replace their moves
 
 Development technologies: HTML, CSS, Javascript.
 
-* [Link]((https://pages.git.generalassemb.ly/robin10125/Shogi-Game/)
+* [Link](https://pages.git.generalassemb.ly/robin10125/Shogi-Game/)
 * Make sure to click the square around the token image, and not the token image, as the game is not yet programmed to handle clicks on token images, and results in a bug where nothing happens
 
 Next steps:
