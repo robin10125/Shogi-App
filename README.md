@@ -15,8 +15,10 @@ Pawns, knights, lances, and silver generals, upon promotion, replace their moves
 Development technologies: HTML, CSS, Javascript.
 
 * [Link](https://pages.git.generalassemb.ly/robin10125/Shogi-Game/)
+* Make sure to click the square around the token image, and not the token image, as the game is not yet programmed to handle clicks on token images, and results in a bug where nothing happens
 
 Next steps:
+    0.  Fix bug: when clicking on token instead of square, nothing happens and the JS throws an error.  Fix by programming click listener to return coordiantes when token is clicked, rather than only returning coordiantes when square around token is clicked.
     1.  Check legality of placing tokens from reserve board
     2.  Check for check and checkmate rather than king deletion, and check illegal moves pertaining to check and checkmate.
     3.  Make intersting graphical features
