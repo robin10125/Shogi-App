@@ -9,7 +9,7 @@ When placing captured pieces, one may not place them in a position where further
 
 Pawns, knights, lances, and silver generals, upon promotion, replace their moveset with that of the golden general.  Bishops and rooks, upon promotion, can move in their regular vectors as well as to all surrounding squares.  
 
-![image](https://git.generalassemb.ly/robin10125/Shogi-Game/blob/gh-pages/Assets/Shogi_Screenshot.png)
+![image](https://pages.git.generalassemb.ly/robin10125/Shogi-Game/)
 
 
 Development technologies: HTML, CSS, Javascript.
